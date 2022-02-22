@@ -1,0 +1,61 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --shadow-1 :  0 .125rem .25rem rgba(0,0,0,.075);
+    --shadow-2 :  0 .5rem 1rem rgba(0,0,0,.15);
+    --shadow-3 :  0 1rem 3rem rgba(0,0,0,.175);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient( to right, #00AAFF, #00FF6c, #00AAFF, #00FF6c);
+    font-family: poppins sans-serif;
+}
+
+body.modal-open{
+    overflow: hidden;
+}
+*,
+*::before,
+*::after{
+
+    box-sizing: border-box;
+}
+
+html{
+    font-family: poppins;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+list{
+    list-style: none;
+}
+
+/* Data tables area css start */
+.devs{
+    width: 1000px;
+    margin: 100px auto 0;
+}
+
+/* Data tables area css end */
+/* .modal-header{
+    background-color: #000;
+    color: #fff;
+}
+.modal-body{
+    background-color: aquamarine;
+} */
+.modal-body label{
+    font-size: 20px;
+    font-weight: bold;
+}
